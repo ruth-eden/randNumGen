@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    margin: 1rem;
+    text-align: center;
+    border: 3px dashed black;
+}
+
+button {
+    margin: auto;
+    display: block;
+    margin-top: 3rem;
+    padding: 1rem 1.5rem;
+    background-color: yellow;
+    border: none;
+}
+
+#result {
+    width: min-content;
+    margin: auto;
+    margin-top: 2rem; 
+    border: 3px solid blue;
+    padding: 0.5rem 1rem;
+}
+
+table {
+    background-color: yellow;
+    width: 100%;
+}
+
+td {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
